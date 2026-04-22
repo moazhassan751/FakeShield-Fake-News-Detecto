@@ -1,0 +1,54 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1160" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B12"/>
+      <stop offset="1" stop-color="#141928"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="120" x2="1120" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF3B5C"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1280" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" rx="32" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1224" height="664" rx="26" fill="#0F1420" stroke="#22304A" stroke-width="1.2"/>
+
+  <circle cx="1090" cy="120" r="130" fill="#FF3B5C" fill-opacity="0.10"/>
+  <circle cx="220" cy="570" r="160" fill="#3B82F6" fill-opacity="0.12"/>
+
+  <text x="84" y="108" fill="#FF3B5C" font-family="Syne, Inter, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3">FAKESHIELD</text>
+  <text x="84" y="176" fill="#E8ECF4" font-family="Syne, Inter, Arial, sans-serif" font-size="54" font-weight="800">AI News Detection Dashboard</text>
+  <text x="84" y="222" fill="#9CA3AF" font-family="DM Sans, Arial, sans-serif" font-size="22">Logistic Regression • Naive Bayes • Optional BERT • Domain Check • LIME</text>
+
+  <g filter="url(#shadow)">
+    <rect x="84" y="278" width="500" height="300" rx="22" fill="#141928" stroke="#24324B"/>
+    <rect x="620" y="278" width="572" height="300" rx="22" fill="#141928" stroke="#24324B"/>
+  </g>
+
+  <text x="116" y="326" fill="#9CA3AF" font-family="DM Sans, Arial, sans-serif" font-size="18" font-weight="600">Article Content</text>
+  <rect x="116" y="348" width="436" height="178" rx="16" fill="#0F1420" stroke="#24324B"/>
+  <text x="136" y="384" fill="#E8ECF4" font-family="DM Sans, Arial, sans-serif" font-size="20">Paste a news article here...</text>
+  <rect x="116" y="546" width="436" height="24" rx="12" fill="#FF3B5C" fill-opacity="0.9"/>
+
+  <text x="656" y="326" fill="#9CA3AF" font-family="DM Sans, Arial, sans-serif" font-size="18" font-weight="600">Analysis Summary</text>
+  <rect x="656" y="348" width="220" height="118" rx="18" fill="#0F1420" stroke="#24324B"/>
+  <text x="682" y="388" fill="#00C896" font-family="Syne, Inter, Arial, sans-serif" font-size="42" font-weight="800">REAL</text>
+  <text x="682" y="420" fill="#9CA3AF" font-family="DM Sans, Arial, sans-serif" font-size="18">Model confidence</text>
+  <text x="682" y="448" fill="#E8ECF4" font-family="JetBrains Mono, Consolas, monospace" font-size="22">91.4%</text>
+
+  <rect x="900" y="348" width="256" height="118" rx="18" fill="#0F1420" stroke="#24324B"/>
+  <text x="928" y="388" fill="#3B82F6" font-family="Syne, Inter, Arial, sans-serif" font-size="28" font-weight="700">Domain Check</text>
+  <text x="928" y="420" fill="#9CA3AF" font-family="DM Sans, Arial, sans-serif" font-size="18">Trusted source</text>
+  <text x="928" y="448" fill="#E8ECF4" font-family="JetBrains Mono, Consolas, monospace" font-size="22">95/100</text>
+
+  <rect x="656" y="488" width="500" height="90" rx="18" fill="#0F1420" stroke="#24324B"/>
+  <text x="684" y="524" fill="#E8ECF4" font-family="DM Sans, Arial, sans-serif" font-size="18">LIME explanations highlight the words that pushed the result.</text>
+  <rect x="684" y="540" width="170" height="14" rx="7" fill="#FF3B5C"/>
+  <rect x="866" y="540" width="94" height="14" rx="7" fill="#00C896"/>
+  <rect x="972" y="540" width="140" height="14" rx="7" fill="#3B82F6"/>
+
+  <text x="84" y="648" fill="#6B7280" font-family="DM Sans, Arial, sans-serif" font-size="16">Streamlit dashboard for fake-news detection with ML, source verification, and explainability.</text>
+</svg>
