@@ -1,0 +1,11 @@
+streamlit
+scikit-learn
+nltk
+lime
+requests
+transformers
+torch
+matplotlib
+plotly
+joblib
+numpy
