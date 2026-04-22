@@ -8,12 +8,6 @@
 
 FakeShield is a Streamlit-based fake news detection app that combines classical machine learning, optional BERT scoring, domain credibility checks, Google News cross-referencing, and Google Fact Check API lookups.
 
-## Preview
-
-<p align="center">
-	<img src="assets/fakeshield-preview.svg" alt="FakeShield preview" width="100%">
-</p>
-
 ## Highlights
 
 - Logistic Regression and Naive Bayes text classifiers
