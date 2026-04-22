@@ -1,0 +1,7 @@
+[server]
+# Prevents Streamlit from crawling every transformers sub-module on save,
+# which caused the flood of "No module named 'torchvision'" log spam.
+fileWatcherType = "none"
+
+[logger]
+level = "error"
