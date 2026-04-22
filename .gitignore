@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+.streamlit/
+*.log
+bert_model/model.safetensors
